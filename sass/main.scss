@@ -1,9 +1,19 @@
 @charset 'utf-8';
+
+%raleway1 {
+    font: {
+        family: 'Raleway';
+        weight: 400;
+    }
+}
+
 body {
     padding: {
         top: 10px;
     }
+    @extend %raleway1;
 }
+
 [class^="col-"],
 [class*=" col-"] {
     outline: 1px solid #0f0;
@@ -12,4 +22,10 @@ body {
     border-radius: 50%;
     display: block;
     margin: 0 auto;
+}
+.nombre-mio {
+    @extend %raleway1;
+    font: {
+        weight: 600;
+    }
 }
