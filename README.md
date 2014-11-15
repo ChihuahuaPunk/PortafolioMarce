@@ -6,13 +6,14 @@ Un portafolio de diseño, más algunos proyectos paralelos de artesanía, webcomic,
 A trabajar- SI, PERO PRACTICANDO SI POH'
 ```
 
-1. Resolver dudas
-2. Practicar
-3. Aprovechar cada ratito posible en probar cosas nuevas
-4. Aprovechar de compartir el conocimiento con las comunidades **pochitas** como github, stackoverflow y qué se yo.
-5. Hola.
-6. Y chao.
+POR HACER
+1. Probar MAMP
+2. Usar las cuentas Heroku y Stackoverflow nuevecitas 
+3. COMPRAR DOMINIO Y METERLO A HEROKU
+4. PRACTICAR Y MEJORAR EL PORTAFOLIO
 
 Sacar fotos para el portafolio de aquí si no estoy en casa
 * [Behance] (https://behance.net/chihuahua_punk)
 * [DeviantArt] (http://chihuahua-punk.deviantart.com/)
+
+[!Aaaaawwwww] (http://img.youtube.com/vi/-kIJqXLMLwc/2.jpg)](https://www.youtube.com/watch?v=-kIJqXLMLwc)
