@@ -19,6 +19,11 @@ body {
     outline: 1px solid #0f0;
 }
 
+.contenedor-logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .logo {
     border-radius: 50%;
     display: block;
@@ -32,4 +37,5 @@ body {
     text: {
         align: center;
     }
+
 }
