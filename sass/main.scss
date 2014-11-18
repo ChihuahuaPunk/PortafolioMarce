@@ -20,8 +20,10 @@ body {
 }
 
 .contenedor-logo {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: {
+        top: 10px;
+        bottom: 10px;
+    }
 }
 
 .logo {
