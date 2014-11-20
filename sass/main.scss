@@ -16,7 +16,7 @@ body {
 
 [class^="col-"],
 [class*=" col-"] {
-    outline: 1px solid #0f0;
+    // outline: 1px solid #0f0;
 }
 
 .contenedor-logo {
@@ -39,5 +39,36 @@ body {
     text: {
         align: center;
     }
-
+}
+.menu {
+    text: {
+        align: center;
+    }
+    font: {
+        size: 30px;
+    }
+    .icon-item-menu {
+        &:not(:last-child) {
+            margin: {
+                right: 10px;
+            }
+        }
+    }
+}
+.un-proyecto {
+    padding: {
+        bottom: 40px;
+    }
+    text: {
+        align: center;
+    }
+}
+.footer-principal {
+    background: {
+        color: #777;
+    }
+    color: #fff;
+    text: {
+        align: center;
+    }
 }
