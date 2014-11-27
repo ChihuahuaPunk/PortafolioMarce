@@ -45,12 +45,13 @@ body {
         align: center;
     }
     font: {
-        size: 30px;
+        size: 50px;
+        color: #B82C47
     }
     .icon-item-menu {
         &:not(:last-child) {
             margin: {
-                right: 10px;
+                right: 50px;
             }
         }
     }
