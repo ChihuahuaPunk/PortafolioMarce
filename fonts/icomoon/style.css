@@ -17,12 +17,22 @@
 	font-variant: normal;
 	text-transform: none;
 	line-height: 1;
+	/*ESTO LO HICIMOS NOSOTROS*/
+	position: relative;
 
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
+[class^="icon-"]:before {
+	position: absolute;
+	top: -8px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	font-size: 50px;
+}
 .icon-iconocasa:before {
 	content: "\e600";
 }

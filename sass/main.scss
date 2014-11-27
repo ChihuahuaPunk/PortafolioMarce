@@ -1,5 +1,7 @@
 @charset 'utf-8';
 
+$rojo-menu: #B82C47;
+
 %raleway1 {
     font: {
         family: 'Raleway';
@@ -46,9 +48,11 @@ body {
     }
     font: {
         size: 50px;
-        color: #B82C47
     }
     .icon-item-menu {
+        color: $rojo-menu;
+        padding-top: 40px;
+        font-size: 20px;
         &:not(:last-child) {
             margin: {
                 right: 50px;
