@@ -10,7 +10,6 @@
 }
 
 [class^="icon-"], [class*=" icon-"] {
-	font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -26,6 +25,7 @@
 }
 
 [class^="icon-"]:before {
+	font-family: 'icomoon';
 	position: absolute;
 	top: -8px;
 	left: 50%;

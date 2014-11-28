@@ -15,6 +15,9 @@ body {
     }
     @extend %raleway1;
 }
+a {
+    transition: .5s;
+}
 
 [class^="col-"],
 [class*=" col-"] {
@@ -57,6 +60,9 @@ body {
             margin: {
                 right: 50px;
             }
+        }
+        &:hover {
+            color: #000;
         }
     }
 }
