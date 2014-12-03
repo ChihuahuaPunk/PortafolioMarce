@@ -1,6 +1,7 @@
 @charset 'utf-8';
 
 $rojo-menu: #B82C47;
+$turquesa: #46AB9B;
 
 %raleway1 {
     font: {
@@ -14,9 +15,8 @@ body {
         top: 10px;
     }
     @extend %raleway1;
-    background-color:#46AB9B;
-    background-image: url("../images/patsc.png");
-    opacity: o.4;
+    background-color: rgba($turquesa, .4);
+    background-image: url("../images/patsc2.png");
     filter: alpha(opacity=40);
 }
 
