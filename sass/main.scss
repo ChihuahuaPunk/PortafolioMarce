@@ -14,7 +14,12 @@ body {
         top: 10px;
     }
     @extend %raleway1;
+    background-color:#46AB9B;
+    background-image: url("../images/patsc.png");
+    opacity: o.4;
+    filter: alpha(opacity=40);
 }
+
 a {
     transition: .5s;
 }
@@ -76,7 +81,7 @@ a {
 }
 .footer-principal {
     background: {
-        color: #777;
+        color: #04463b;
     }
     color: #fff;
     text: {
