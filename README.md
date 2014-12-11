@@ -2,12 +2,11 @@ PortafolioMarce
 ===============
 
 Un portafolio de diseño, más algunos proyectos paralelos de artesanía, webcomic, y sitios para mostrar en el mismo portafolio ~~porque todavía no tengo superclientes que me paguen por hacerlos~~.
-```
 
-## SI, PORTAFOLIO AVANZANDO ### [->Mira, mamá<-](http://chihuahuapunk.github.io/PortafolioMarce "Ya soy grande")
-```
+[PORTAFOLIO AVANZADO WIIIII](http://chihuahuapunk.github.io/PortafolioMarce)
+
 A trabajar- SI, PERO PRACTICANDO SI POH'
-```
+
 
 POR HACER
 
