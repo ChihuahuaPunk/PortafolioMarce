@@ -78,6 +78,13 @@ a {
     text: {
         align: center;
     }
+    img {
+        opacity: .6;
+        transition: .5s;
+        &:hover {
+            opacity: 1;
+        }
+    }
 }
 .footer-principal {
     background: {
