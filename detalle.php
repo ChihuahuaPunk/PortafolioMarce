@@ -1,24 +1,12 @@
-
-<!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Detalle | Portafolio  Marcela V</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="fonts/icomoon/style.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link href='http://fonts.googleapis.com/css?family=Raleway:400,600,800' rel='stylesheet' type='text/css'>
-
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-    </head>
-    <body class="pagina-interior">
+<?php
+    $bodyclass = 'pagina-interior';
+    $pagetitle =  '';
+    $detalleproyecto = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
+    $nombreproyecto = 'Proyecto de Prueba';
+    $imgname = 'port001.jpg';
+?>
+<?php include 'header.php'; ?>
+    <body  <?php if($bodyclass) { echo 'class="' . $bodyclass . '"'; } ?>>
         <div class="contenedorfondo">
             <div class="container">
              <header>
@@ -42,31 +30,14 @@
              <section class="proyectos">
                   <div class="col-xs-12 col-lg-6 un-proyecto">
                     <a href="#">
-                        <img src="images/port001.jpg" class="img-responsive" alt="">
+                        <img src="images/<?php echo $imgname; ?>" class="img-responsive" alt="">
                     </a>
                  </div><!-- /.col-xs-6 -->
                  <div class="col-xs-12 col-lg-6 texto-proyecto">
-                     <h2 class="titulo-proyecto">Proyecto de prueba</h2>
-                     <p class="descripcion-proyecto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                     <h2 class="titulo-proyecto"><?php echo $nombreproyecto; ?></h2>
+                     <p class="descripcion-proyecto"><?php echo $detalleproyecto; ?></p>
                  </div><!-- /.col-xs-12 col-lg-6 texto-proyecto -->
               </section><!-- /.proyectos -->
              </div><!--.container-->
         </div><!--contenedorfondo-->
-      <footer class="footer-principal col-xs-12">
-        <div class="container">
-          <p>Marcela Vergara - <a href="tel:+56984774139">+569.84774139</a> - <a href="mailto:marcela.vergara.diseno@gmail.com">marcela.vergara.diseno@gmail.com</a></p>
-        </div><!-- /.container -->
-      </footer><!-- /.footer-principal -->
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
-        <script src="js/vendor/bootstrap.min.js"></script>
-
-        <script src="js/main.js"></script>
-    </body>
-</html>
+<?php include 'footer.php'; ?>
