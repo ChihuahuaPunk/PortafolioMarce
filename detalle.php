@@ -1,9 +1,10 @@
 <?php
     $bodyclass = 'pagina-interior';
-    $pagetitle =  '';
+    $pagetitle =  'Proyecto de Prueba';
     $detalleproyecto = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
     $nombreproyecto = 'Proyecto de Prueba';
     $imgname = 'port001.jpg';
+    $imggrande = 'port002.jpg';
 ?>
 <?php include 'header.php'; ?>
     <body  <?php if($bodyclass) { echo 'class="' . $bodyclass . '"'; } ?>>
@@ -29,7 +30,7 @@
              <hr class="separador col-xs-12">
              <section class="proyectos">
                   <div class="col-xs-12 col-lg-6 un-proyecto">
-                    <a href="#">
+                    <a href="images/<?php echo $imggrande; ?>" class="js-modal">
                         <img src="images/<?php echo $imgname; ?>" class="img-responsive" alt="">
                     </a>
                  </div><!-- /.col-xs-6 -->
@@ -41,3 +42,5 @@
              </div><!--.container-->
         </div><!--contenedorfondo-->
 <?php include 'footer.php'; ?>
+<div class="overlay"></div>
+<?php // Esto es un comentario ?>
