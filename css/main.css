@@ -1,4 +1,65 @@
-body,.nombre-mio{font-family:'Raleway';font-weight:400}body{padding-top:10px;background-color:rgba(70,171,155,0.4);background-image:url("../images/patsc2.png");filter:alpha(opacity=40)}a{transition:.5s}.contenedor-logo{padding-top:10px;padding-bottom:10px}.logo{border-radius:50%;display:block;margin:0 auto}.nombre-mio{font-weight:600;text-align:center}.menu{text-align:center;font-size:50px}.menu .icon-item-menu{color:#b82c47;padding-top:40px;font-size:20px}.menu .icon-item-menu:not(:last-child){margin-right:50px}.menu .icon-item-menu:hover{color:#000}.pagina-interior .un-proyecto img{opacity:1}.un-proyecto{padding-bottom:40px;text-align:center}.un-proyecto img{opacity:.6;transition:.5s}.un-proyecto img:hover{opacity:1}.footer-principal{background-color:#04463b;color:#fff;text-align:center}
+body, .nombre-mio {
+    font-family: 'Raleway';
+    font-weight: 400
+}
+body {
+    padding-top: 10px;
+    background-color: rgba(70, 171, 155, 0.4);
+    background-image: url("../images/patsc2.png");
+    filter: alpha(opacity=40)
+}
+a {
+    transition: .5s
+}
+.contenedor-logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.logo {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto
+}
+.nombre-mio {
+    font-weight: 600;
+    text-align: center
+}
+.menu {
+    text-align: center;
+    font-size: 50px
+}
+.menu .icon-item-menu {
+    color: #b82c47;
+    padding-top: 40px;
+    font-size: 20px
+}
+.menu .icon-item-menu:not(:last-child) {
+    margin-right: 50px
+}
+.menu .icon-item-menu:hover {
+    color: #000
+}
+.pagina-interior .un-proyecto img {
+    opacity: 1
+}
+.un-proyecto {
+    padding-bottom: 40px;
+    text-align: center
+}
+.un-proyecto img {
+    opacity: .6;
+    transition: .5s
+}
+.un-proyecto img:hover {
+    opacity: 1
+}
+.footer-principal {
+    background-color: #04463b;
+    color: #fff;
+    text-align: center
+}
+
 .un-proyecto a {
     position: relative;
     float: left;
@@ -25,4 +86,7 @@ body,.nombre-mio{font-family:'Raleway';font-weight:400}body{padding-top:10px;bac
 .descripcion-obra {
     background: rgba(0,0,0,.5);
     border-radius: 20px;
+}
+.footer-principal a {
+    color: #b82c47;
 }
